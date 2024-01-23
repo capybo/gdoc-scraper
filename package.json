@@ -1,0 +1,23 @@
+{
+  "name": "gdoc-scraper",
+  "version": "1.0.0",
+  "description": "Parsing tool designed to extract information from Google Documents in situations where direct copying is restricted",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capybo/gdoc-scraper.git"
+  },
+  "author": "Andrew Shumel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/capybo/gdoc-scraper/issues"
+  },
+  "homepage": "https://github.com/capybo/gdoc-scraper#readme",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
